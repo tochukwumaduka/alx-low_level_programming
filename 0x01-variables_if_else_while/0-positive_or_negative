@@ -1,7 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
-#include <stdtime.h>
-/*this is war*/
+#include <time.h>
+/*main -> this is war*/
 	int main(void)
 /* make una no use this one hold me, almos 48 hours in level zero, tears full my eyes and i am not happy, just glad you finnaly passed*/
 	{
