@@ -1,16 +1,18 @@
 #include <stdlib.h>
 #include <time.h>
-
+#include <stdio.h>
 /**
-*main -> last_digit.c
-*return -> success always
-*/
+*main - printing last_digit
+*
+*return: success always 0
+**/
 
 int main(void)
-
+/*return value of main = 0 */
 	{
 
 	int n;
+	char last[] = "last digit of ";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
