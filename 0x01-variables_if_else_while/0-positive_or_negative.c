@@ -1,12 +1,20 @@
 #include <stdlib.h>
 #include <time.h>
-/*main -> this is war*/
+#include <stdio.h>
+/**
+*main - Task 1 print the last digit of the number stored in the variable n*
+*
+ *Return: 0
+ **/
 	int main(void)
-/* make una no use this one hold me, almos 48 hours in level zero, tears full my eyes and i am not happy, just glad you finnaly passed*/
+
 	{
+
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 	printf("%d is %s\n", n, "positive");
@@ -19,6 +27,6 @@
 	{
 	printf("d is %s\n", n, "zero");
 	}
-	return(0);
+	return (0);
 
 }

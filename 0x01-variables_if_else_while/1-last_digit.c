@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - printing last_digit
+*main - Task 1 print the last digit of the number stored in the variable n
 *
-*return: success always 0
-**/
+*Return: 0
+ **/
 
 int main(void)
 /*return value of main = 0 */
