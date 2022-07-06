@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
-*main - print alphabet
-*Return: always 0
+*print_alphabet - print alphabets bikonu
 */
 
 void print_alphabet(void)
