@@ -2,12 +2,12 @@
 
 /**
 *main - print alphabet
-*Return: no return statement
+*Return: always 0
 */
 
 void print_alphabet(void);
-	{
-		int j;
+{
+	int j;
 
 		for (j = 'a'; j <= 'z'; j++)
 
@@ -15,4 +15,4 @@ void print_alphabet(void);
 			_putchar(j);
 		}
 		_putchar('\n');
-	}
+}
