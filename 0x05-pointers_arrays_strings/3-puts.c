@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _puts -> this is a function that puts
@@ -6,7 +6,7 @@ include "main.h"
  * @str: a param to _puts function
  */
 
-void _puts(char *str)
+	void _puts(char *str)
 
 {
 
